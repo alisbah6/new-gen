@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Address</title>
+<link rel="stylesheet" type="text/css" href="address.css">
+</head>
+<body>
+<section>
+<div>
+	<a href="add.html"><img src="img/genlogo.png" class="brand-logo" alt="">NEW GENERATION NEW TECHNOLOGY</a>
+</div>
+</section>
+
+<div class="Address">
+<form action="Register" method="post">
+House No.:<br><input type="text" id="houseno" name="houseno" placeholder="Enter Your House No" required><br>
+Floor:<br><input type="text" id="houseno" name="floor" placeholder="Enter Your Floor" required><br>
+Locality:<br><input type="text" id="locality" name="locality" placeholder="Enter Your Locality" required><br>
+Landmark:<br><input type="text" id="landmark"  name="landmark" placeholder="Nearby landmark(optional)" required><br>
+Mobile:<br><input type="number" name="mobile" id="mobile" placeholder="Enter Your Mobile Number" required><br>
+Email-ID:<br><input type="email" name="email" id="email" placeholder="Enter Your Email-ID" style="text-transform:lowercase" required><br>
+Set Address As :<br><input type="radio" name="add" value="Home" id="Home" required>Home
+<input type="radio" name="add" id="Work" value="Work" required>Work
+<input type="radio" name="add" value="Other" id="Other" required>Other<br>
+Payment Method :<br><input type="radio" name="pay" value="cash" id="cash" required>Cash
+<input type="radio" name="pay" value="gpay" id="gpay" required>Gpay
+<input type="radio" name="pay" id="paytm" value="paytm" required>Paytm<br>
+<input type="radio" name="pay" value="debit" id="debit" required>Debit Card
+<input type="radio" name="pay" value="credit" id="credit" required>Credit Card<br>
+<input type="text" name="PageValue" hidden="True" value="Confirm"><br>
+<input type="submit" value="Confirm">
+</form>
+</div>
+<footer></footer>
+<script src="footer.js"></script>
+</body>
+</html>

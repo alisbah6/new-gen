@@ -1,0 +1,241 @@
+@charset "ISO-8859-1";
+@import "footer.css";
+*{
+	margin:0px;
+	padding:0px;
+ }
+ body{
+ 	background-image: url(img/logo.jpg);
+ 	background-size: 100%;
+ 	box-sizing:border-box;
+ 	overflow-x:hidden;
+ }
+ input[type="submit"], input[type="reset"], button{
+	color: black;
+	border:black;
+	background-color: white;
+	font-size: 25px;
+	font-family: serif;
+	font-style: italic;
+	border: none;
+	padding: 10px;
+	margin-left: 100px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+input[type="reset"]:hover, input[type="submit"]:hover, button:hover{
+	color: white;
+	background-color:#5fc2ed;
+	border-bottom: 3px solid white;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.Register{
+	color: white;
+	width: 330px;
+	height: 520px;
+	background-color: #445157;
+	margin-left: 750px;
+	margin-top: 50px;
+	padding: 35px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+.Register input[type="text"]{
+	border: none;
+	border-bottom: 1px solid clack;
+	background-color:#3D3B3B;
+	color: black;
+	border-radius: 3px;
+	margin-left: 15px;
+	height: 50px;
+	width: 288px;
+}
+.Register input[type="password"],input[type="date"],input[type="email"],input[type="number"],input[type="tel"]{
+	border: none;
+	border-bottom: 1px solid clack;
+	background-color:#3D3B3B;
+	color: black;
+	border-radius: 3px;
+	margin-left: 15px;
+	height: 47px;
+	width: 276px;
+}
+
+.Register select, input[type="file"]{
+	margin-left: 20px;
+}
+.Register input[type="radio"], input[type="checkbox"]{
+	margin-left: 20px;
+	height: 15px;
+	width: 15px;
+}
+.Header{
+	color: white;
+	width: 900px;
+	height: 80;
+	margin-left: 10px;
+	margin-top: 5px;
+	border:none;
+	text-align: left;
+}
+
+.Header p{
+	color:black;
+	font-family: serif;
+	font-style: Times New Roman;
+	font-weight: bold;
+	font-size: 60px;
+	padding:5px;
+	border: none;
+	text-decoration: none;
+	text-shadow: 2px 1px rgba(169,169,169,0.8);
+}
+
+#Navbar{
+	color: white;
+	margin-left: 10px;
+	margin-top: 15px;
+	border: none;
+}
+
+#Navbar ul{
+	list-style: none;
+}
+
+#Navbar ul li{
+	float: left;
+	background-color: rgba(0,0,0,0.6);
+	border: none;
+	border-right: 1px solid #ff6347;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid rgba(0,0,255,0.5);
+	text-align: center;
+	position: relative;
+}
+
+#Navbar ul li a{
+	display: block;
+	color: white;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+#Navbar ul li a:hover{
+	background-color: rgba(0,0,255,0.5);
+	transition: 1s;
+}
+
+#Navbar ul ul{
+	position: absolute;
+	display: none;
+}
+ 
+#Navbar ul li:hover > ul{
+	display: block;
+} 
+
+.Login{
+	color: white;
+	width: 300px;
+	height: 200px;
+	background-color: #445157;
+	margin-left: 750px;
+	margin-top: 100px;
+	padding: 50px;
+	border: 1px solid black;
+	border-radius: 10px;
+	font-style: italic;
+	font-weight: bold;
+	font-size:25px;
+}
+
+.Login input[type="text"],input[type="password"],input[type="date"],input[type="email"],input[type="number"],input[type="tel"]{
+	border: none;
+	border-bottom: 1px solid black;
+	background-color: #3d3b3b;
+	color: white;
+	border-radius: 3px;
+	margin-left: 15px;
+	height: 32px;
+	width: 275px;
+	padding:7px;
+}
+
+.Home{
+	color: white;
+	width: 330px;
+	height: 230px;
+	background-color:#445157;
+	margin-left: 700px;
+	margin-top: 100px;
+	padding: 30px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+.Home #p1{
+	color:#445157;
+	font-family: serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 35px;
+	padding:12px;
+	border: none;
+	text-decoration: none;
+	text-decoration: underline;
+}
+
+.Home #p2{
+	color:white;
+	font-family: serif;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 38px;
+	padding:0px;
+	border: none;
+}
+
+.Home ul li{
+	margin-left: 30px;
+	font-size: 18px;
+}
+
+.Home a{
+	text-decoration:none;
+	color: black;
+	border-bottom: 3px solid rgba(0,0,255,0.5);
+	background-color: white;
+	display: block;
+	background-color: white;
+	height: 30px;
+	width: 150px;
+	text-align:center;
+	line-height: 30px;
+	display: block;
+	padding: 10px;
+	font-size: 20px;
+	border: none;
+	border-radius: 10px;
+	transition: 1s;
+	margin-left: 100px;
+	margin-top:px;
+}
+
+
+.Home a:hover{
+	color: white;
+	background-color: #5fc2ed;
+	border-bottom: 3px solid white;
+	border-radius: 10px;
+}
+.gap{
+	margin:50px;
+}
+footer{
+	box-sizing:border-box;
+	overflow-x:hidden;
+}

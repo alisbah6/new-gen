@@ -1,0 +1,102 @@
+@import "nav.css";
+@import "footer.css";
+
+.productsty{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.product-category{
+	background:white;
+	font-size:50px;
+	padding :15px;
+	text-align:center;
+
+}
+.product-containers{
+	max-width:700px;
+	justify-content:space-around;
+    display: flex;
+    margin:0 auto;
+    margin-top:50px;
+}
+.product-header{
+	width:100%;
+	max-width:900%;
+	display:flex;
+	justify-content:center;
+	border-bottom:4px solid lightgrey;
+	margin:0 auto;
+	
+}
+.product-title{
+	width:45%;
+	display:flex;
+	justify-content:flex-start;
+}
+.pricee{
+	width:30%;
+}
+.quantityy{
+	width:35%;
+}
+.totall{
+	width:30%;
+}
+.mainpro{
+	display:flex;
+	justify-content:center;
+}
+.product
+{
+	display:flex;
+	width:50px;
+}
+.price{
+	width:30%;
+	padding-left:22%;
+}
+.quantity{
+	width:23;
+	padding-left:5%;
+	padding-right:5%;
+}
+.total{
+	width:25%;
+	padding-left:6%;
+}
+.basketTotalConatiner{
+	display:flex;
+	 text-transform: capitalize;
+	 font-size: 20px;
+	 justify-content:center;
+}
+.basketTotalTitle{
+	text-transform: capitalize;
+	font-style:Times New Roman;
+	padding:5%;
+}
+.basketTotal{
+	font-size:bold;
+	padding:5%;
+}
+button{
+	color: black;
+	border-bottom: 3px solid rgba(0,0,255,0.5);
+	background-color: white;
+	font-size: 25px;
+	font-family: serif;
+	font-style: italic;
+	border: black;
+	padding:5%;
+	justify-content:flex-end;
+	margin-left: 70%;
+	border-radius: 5px;
+	text-decoration: none;
+}
+button:hover{
+	color: white;
+	background-color:#5fc2ed;
+	border-bottom: 3px solid white;
+	border-radius: 10px;
+	text-decoration: none;
+}

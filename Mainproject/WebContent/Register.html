@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register</title>
+<link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body>
+<div class="Header">
+		<a href="./Home.html" style="text-decoration: none;"><p class="title">NEW GEN</p></a>
+	</div>
+<div class="Register">
+<form action="Register" method="post">
+Username:<br><input type="text" id="username" name="username" placeholder="Enter Your Username" required><br>
+Password:<br><input type="password" id="password1" name="password1" placeholder="Enter Your Password" required><br>
+Confirm Password:<br><input type="password" id="password2"  name="password2" placeholder="Confirm Your Password" required><br>
+Date of Birth:<br><input type="date" name="dob" id="dob" required><br>
+Gender:<br><input type="radio" name="gender" value="Male" id="Male" required>Male
+<input type="radio" name="gender" id="Female" value="Female" required>Female<input type="radio" name="gender" value="Other" id="Other" required>Other<br>
+Mobile:<br><input type="number" min="6000000000" max="10000000000" name="mobile" id="mobile" placeholder="Enter Your Mobile Number" required><br>
+Email-ID:<br><input type="email" name="email" id="email" placeholder="Enter Your Email-ID" required><br>
+<input type="text" name="PageValue" hidden="True" value="Register"><br>
+<input type="submit" value="Register">
+<h3 id="error_msg" style="color:rgba(255,0,0,0.6);"></h3>
+</form>
+</div>
+<section class="gap"></section>
+<footer></footer>
+
+<script src="footer.js"></script>
+</body>
+</html>
